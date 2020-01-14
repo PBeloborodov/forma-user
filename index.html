@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>login singup</title>
+  <!--Шрифты-->
+  <link rel="stylesheet" href="./Fonts/work-pt-sans/stylesheet.css">
+  <!--Стили оформления-->
+  <!-- <link rel="stylesheet" href="./css/main_stylestyle.css"> -->
+  <link rel="stylesheet" href="./css/min.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-col">
+      <span>Sign up</span>
+    </div>
+    <div class="right-col">
+      <div class="right-col__title">
+        New user?
+      </div>
+      <div class="right-col__subtitle">
+        Use the form below to create your account
+      </div>
+      <form action="#" class="form">
+        <div class="form__item">
+          <span class="form__item-title">First Name</span>
+          <input type="text" value="" placeholder="Alice" class="form__item-input">
+        </div>
+        <div class="form__item">
+          <span class="form__item-title">Last Name</span>
+          <input type="text" value="" placeholder="Miller" class="form__item-input">
+        </div>
+        <div class="form__item">
+          <span class="form__item-title">Nationality</span>
+          <select name="Nationality" id="Nationality" class="form__item-input arrow">
+            <option>American</option>
+          </select>
+        </div>
+        <div class="form__item">
+          <span class="form__item-title ">E-mail</span>
+          <input type="text" value="" placeholder="alice.miller@yahoo.com" class="form__item-input check">
+        </div>
+        <div class="form__item">
+          <span class="form__item-title">Date of Birth </span>
+          <div class="form__item-input-wrap">
+            <select name="" id="" class="form__item-input arrow form__item-input_birth">
+              <option value="">21</option>
+            </select>
+            <select name="" id="" class="form__item-input arrow form__item-input_birth">
+              <option value="">December</option>
+            </select>
+            <select name="" id="" class="form__item-input arrow form__item-input_birth">
+              <option value="">1995</option>
+            </select>
+          </div>
+        </div>
+        <div class="form__item">
+          <span class="form__item-title">Gender </span>
+          <div class="form__item-input-wrap">
+            <input type="radio" name="Gender" id="input-male">
+            <label for="input-male" class="form__item-input_label">Male</label>
+            <input type="radio" name="Gender" id="input-female" checked>
+            <label for="input-female" class="form__item-input_label">Female</label>
+          </div>
+        </div>
+        <div class="form__item">
+          <span class="form__item-title">Password</span>
+          <input type="password" value="" placeholder="" class="form__item-input">
+        </div>
+        <div class="form__item">
+          <span class="form__item-title">Confirm Password</span>
+          <input type="password" value="" placeholder="" class="form__item-input">
+        </div>
+      </form>
+      <div class="right-col__send">
+        <span class="right-col__send-account">Have an account?
+          <a href="#">Login</a></span>
+        <input type="button" value="Complete Signup" class="right-col__send-btn">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
